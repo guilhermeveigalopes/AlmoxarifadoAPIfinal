@@ -27,6 +27,8 @@ namespace APIAlmoxarifado
             builder.Services.AddScoped<IUsuarioRepositorio, UsuarioRepositorio>();
             builder.Services.AddScoped<IBenchmarkingRepositorio, BenchmarkingRepositorio>();
             builder.Services.AddScoped<ILogsRepositorio, LogsRepositorio>();
+            builder.Services.AddScoped<IProdutoRepositorio, ProdutoRepositorio>();
+
 
 
 
